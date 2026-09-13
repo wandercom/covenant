@@ -1,7 +1,7 @@
 # ADR-001: covenant extraction architecture
 
 **Status:** Accepted (2026-05-06; Claude/Codex collaboration)
-**Source spec:** `~/Code/covenant/SPEC.md`
+**Source spec:** `~/WanderRepos/repos/covenant/SPEC.md`
 
 ## Context
 
@@ -59,14 +59,14 @@ TS→Python; everyone consumes the same JSON Schema artifact.
 ### Reeve migration cost
 
 Approximately zero. Reeve's `src/covenant/` Zod schemas relocate to
-`~/Code/covenant/ts/src/contracts/` unchanged. JSON Schema export is
+`~/WanderRepos/repos/covenant/ts/src/contracts/` unchanged. JSON Schema export is
 new (one CI step). Pydantic models for Python consumers are added as
 those consumers wire up.
 
 ### Repo layout
 
 ```
-~/Code/covenant/
+~/WanderRepos/repos/covenant/
 ├── SPEC.md
 ├── ADR-001-extraction.md  # this file
 ├── contracts/                       # canonical JSON Schema + policy
@@ -189,7 +189,7 @@ This is a one-time step, after which JSON Schema is canonical.
 
 ## Migration plan (after this ADR)
 
-1. Init `~/Code/covenant/` per layout.
+1. Init `~/WanderRepos/repos/covenant/` per layout.
 2. Build `covenant-gen` against a single example contract first.
 3. Author `ts/src/validate.ts` consuming generated Zod.
 4. Author `py/src/covenant/validate.py` consuming generated Pydantic.

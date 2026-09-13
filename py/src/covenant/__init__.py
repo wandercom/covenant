@@ -1,6 +1,6 @@
 """covenant — Python sibling of the TS covenant runtime.
 
-Loads JSON Schema contracts from ~/Code/covenant/contracts/ (committed
+Loads JSON Schema contracts from ~/WanderRepos/repos/covenant/contracts/ (committed
 artifacts produced by `covenant-export`) and validates payloads with
 Pydantic v2.
 

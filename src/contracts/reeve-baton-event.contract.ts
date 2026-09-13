@@ -9,8 +9,8 @@
 // + register helper from here once Wave 3 lands.
 //
 // covenant-export reads this file to emit
-//   ~/Code/covenant/contracts/reeve.baton.event.shape.json
-//   ~/Code/covenant/contracts/reeve.baton.event.shape.policy.yaml
+//   ~/WanderRepos/repos/covenant/contracts/reeve.baton.event.shape.json
+//   ~/WanderRepos/repos/covenant/contracts/reeve.baton.event.shape.policy.yaml
 
 import { z } from 'zod';
 import { registerContract } from '../registry.js';
