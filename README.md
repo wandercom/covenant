@@ -4,7 +4,7 @@ Contract validation runtime. Per-environment violation policy +
 sliding-window violation budget. Twin TypeScript / Python siblings,
 both consuming the same JSON Schema artifact.
 
-Part of the [Exemplar stack](https://github.com/jmcentire/exemplar-stack)
+Part of the [Exemplar stack](https://github.com/wandercom/exemplar-stack)
 (open-source toolkit, MIT). Originally extracted from
 [Reeve](https://github.com/jmcentire/reeve)'s slice-4 contract layer.
 
@@ -95,7 +95,7 @@ with `.d.ts` files.
 ```json
 {
   "dependencies": {
-    "covenant": "git+https://github.com/jmcentire/covenant.git#v0.1.1",
+    "covenant": "git+https://github.com/wandercom/covenant.git#v0.1.1",
     "zod": "^3.23.0"
   }
 }

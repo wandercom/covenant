@@ -118,7 +118,7 @@ captures the operator's go/no-go.
    private module.
 3. CI gate: every endpoint route file must import a registered
    contract. Lint rule rejects PRs adding routes without contracts.
-4. Extract to `~/Code/covenant/` when the second stack component (likely
+4. Extract to `~/WanderRepos/repos/covenant/` when the second stack component (likely
    baton) needs it.
 
 ## Provenance

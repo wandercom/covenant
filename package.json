@@ -53,10 +53,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmcentire/covenant.git"
+    "url": "git+https://github.com/wandercom/covenant.git"
   },
-  "homepage": "https://github.com/jmcentire/covenant#readme",
+  "homepage": "https://github.com/wandercom/covenant#readme",
   "bugs": {
-    "url": "https://github.com/jmcentire/covenant/issues"
+    "url": "https://github.com/wandercom/covenant/issues"
   }
 }
