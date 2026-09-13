@@ -252,6 +252,8 @@ Consumers migrating to V2: swap the `ViolationStore` adapter
 
 ## Running tests locally
 
+Development checks use Vitest 5 and require Node.js 22.x (>=22.12), 24.x, or 26+. Use Node 22 LTS for the documented test commands; the package runtime requirement is unchanged.
+
 ```bash
 # TS — Reeve's ported tests + golden vectors
 cd ts && npm install && npm test
